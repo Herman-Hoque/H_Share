@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body{
+    margin: 10%;
+    margin-top: 4%;
+    background-color: #353535;
+}
+
+
+main#principal{
+    background-color: #201599;
+    padding: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px 3px;
+}
+
+div#corpo{
+    box-shadow: 1px 1px 5px 2px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #dddddd;
+
+}
+
+img#logo{
+    width: 150px;
+}
+
+h1#msg{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+    
+    
+}
+hr{
+    height: 2px;
+}
+div#fileShare{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div#op{
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input#file{
+    background-color: rgba(0, 0, 255, 0.564);
+}
+
+div#op a#verShare{
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    background-color: rgba(0, 0, 255, 0.564);
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+
+div#op a#verShare:hover{
+    background-color: #201599;
+    box-shadow: 2px 2px 5px 2px;
+
+}
+
+div#op input#submit{
+    width: 100px;
+    color: #000;
+    background-color: #201599;
+    border-radius: 5px;
+}
+
+p#dev{
+    text-align: center;
+    font-size: 10pt; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+div#corpo iframe#frame{  
+    width: 100%;
+    height: 56%;
+}
+
+div#corpo{
+    height: 450px;
+}
+
+div#descricao{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div#descricao span#vazio{
+    margin-right: 370px;
+}
+div#descricao span#vazio2{
+    margin-right: 40px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 900px){
+    div#descricao{
+        font-size: 9pt;
+    }
+    
+    div#descricao span#vazio{
+        margin-right: 60px;
+    }
+    div#descricao span#vazio2{
+        margin-right: 0px;
+    }
+
+
+}
+
+
+
+
+
+

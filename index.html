@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media_screen.css">
+    <link rel="shortcut icon" href="img/folder.png" type="image/x-icon">
+    <script defer src="js.js"></script>
+    <title>H_Share</title>
+</head>
+<body>
+
+    <main id="principal">
+
+        <div id="corpo">
+            <div>
+                <img src="img/logo.png" alt="sem logo" id="logo">
+                <label for="hShare" id="h_share"></label>
+            </div>
+            <h1 id="msg">Faça partilha de arquivos e acesse arquivos partilhados aqui</h1>
+            <!--Formulário de partilha-->
+            <form id="uploadForm" enctype="multipart/form-data">
+                <hr>
+                <p style="font-size: 9pt; text-align: center; font-family: 'Times New Roman', Times, serif;">Tamanho maximo de ficheiro -> 900MB</p>
+                <div id="fileShare">
+                    <input type="file" name="file" id="file"><br><br>
+                    <progress id="progressBar" value="0" max="100"></progress><br>
+                    <span id="status"></span><br>
+                </div>
+                <hr>
+                <div id="op">
+                    <a href="partilhas.html" target="_blank" id="verShare"><strong>Ver partilhas</strong></a>
+                    <input type="submit" value="Enviar" id="submit">
+                </div>
+            </form>
+            <!--Fim do formulário-->
+            <hr>
+            <p id="dev">Dev: Herman Hoque</p>
+        </div>
+
+    </main>
+    
+</body>
+</html>
